@@ -19,7 +19,7 @@ case $key in
 esac
 done
 
-mipay_apps="Mipay NextPay TSMClient UPTsmService"
+mipay_apps="Mipay NextPay TSMClient UPTsmService MiuiSuperMarket" 
 private_apps=""
 [ -z "$EXTRA" ] || mipay_apps="$mipay_apps $EXTRA"
 [ -z "$EXTRA_PRIV" ] || private_apps="$private_apps $EXTRA_PRIV"
